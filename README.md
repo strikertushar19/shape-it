@@ -65,3 +65,62 @@ shapeit/
 |                //localhost:3000
 ├── public/        // Static assets (images, fonts, etc.)
 └── ...            // Other project files (styles, configuration)
+
+### How to contribute to code
+Never contribute directly on main branch
+
+Step -1:
+Check which branch you are working on (it will shown in terminal as green by terminal means vscode terminal)
+
+Enter command in terminal
+```bash
+git branch
+```
+By default you are  on branch main as you clone if not use step-2 to go to main and check by again 
+entering step-1 command
+
+Step -2
+```bash
+git checkout main
+```
+Now from main branach you will cut out your branch 
+
+The below command will cut out a branch from main with all the content whcich main has right now whether commited or not
+
+What does commit do is ?
+It save all the cahnges you have done in files in the git repository of your folder which is attached to you.
+But before doing commit you must always add the files those command i will show down
+
+step-3
+Cut you branch
+```bash
+git checkout -b your_branch_name
+``` 
+check with step -1 
+```bash
+git branch
+```
+so yeah you are on your branch now.
+now do your changes you want to do in files on this branch and then 
+after that
+
+step-4
+add files
+```bash
+git add .
+```
+step-5
+```bash
+git commit -m "my changed files and things i did"
+```
+keep the sentence inside commit not very long just maximum to 10 words
+
+step-6
+Next command
+```bash
+git push origin your_branch_name
+```
+After this a request to create pull request will be created on 
+this repo https://github.com/strikertushar19/shape-it.git open it 
+and click on the button which create pr after that add your details and there is create merge request green button which you have to click and create it when done i will review it and merge your pr and this way your contribution is done
+You might think that this is complicated but one you do 2-3 times you can do in just couple of seconds raising pr and merging it .
