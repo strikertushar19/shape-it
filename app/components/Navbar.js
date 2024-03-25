@@ -1,8 +1,8 @@
 import React from "react";
+
 const Navbar = () => {
   return (
     <>
-      {" "}
       <div className="flex items-center justify-center pt-8 pb-4 border-b-2 shadow-xl fixed bg-white w-full">
         <div className="container flex flex-col lg:flex-row justify-between items-center w-1/3 mx-auto">
           <h1 className="font-bold text-3xl lg:text-4xl"><a href="/">ShapeIT</a></h1>
