@@ -105,6 +105,7 @@ const MathsPage = () => {
               3D Geometry
               </a>
             </h3>
+            
           </li>
           <li>
             <h3 className="text-red-500">
