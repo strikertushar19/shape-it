@@ -1,3 +1,7 @@
+# Website link
+
+Website : https://shape-it-one.vercel.app
+
 ## Set up the project
 - 1. Make a folder in your local laptop with any name you like 
 - 2. open it in visual studio code 
