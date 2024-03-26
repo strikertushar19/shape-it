@@ -17,7 +17,7 @@ const MathsPage = () => {
         <ul>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications" >
+              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
                 Binomial Theorem And Its Simple Applications
               </a>
             </h3>
@@ -31,71 +31,91 @@ const MathsPage = () => {
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/maths/coordinateGeometry">
+              Coordinate Geometry
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/maths/differentialEquations">
+              Differential Equations
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/maths/integralCalculus">
+              Integral Calculus
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/maths/matricesAndDeterminants">
+              Matrices And Determinants
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/maths/permutationsAndCombinations">
+              Permutations And Combinations
               </a>
             </h3>
           </li>
-          {/* <li>
-            <h3 className="text-red-500">
-              Complex Numbers And Quadratic Equations
-            </h3>
-            <p className="text-black">Answer: page</p>
-          </li>
           <li>
             <h3 className="text-red-500">
-              Limit, Continuity And Differentiability
+              <a className="my-2" href="/jee/maths/probability">
+              Probability
+              </a>
             </h3>
-            <p className="text-black">Answer: page</p>
           </li>
           <li>
-            <h3 className="text-red-500">Matrices And Determinants</h3>
-            <p className="text-black">Answer: page</p>
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/maths/setsRelationsAndFunctions">
+              Sets Relations And Functions
+              </a>
+            </h3>
           </li>
           <li>
-            <h3 className="text-red-500">Permutations And Combinations</h3>
-            <p className="text-black">Answer: page</p>
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/maths/StatisticsAndProbability">
+              Statistics And Probability
+              </a>
+            </h3>
           </li>
           <li>
-            <h3 className="text-red-500">Probability</h3>
-            <p className="text-black">Answer: page</p>
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/maths/trigonometry">
+              Trigonometry
+              </a>
+            </h3>
           </li>
           <li>
-            <h3 className="text-red-500">Sequence And Series</h3>
-            <p className="text-black">Answer: page</p>
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/maths/limitContinuityAndDifferentiability">
+              Limits, Continuity And Differentiability
+              </a>
+            </h3>
           </li>
           <li>
-            <h3 className="text-red-500">Sets, Relations And Functions</h3>
-            <p className="text-black">Answer: page</p>
-          </li> */}
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/maths/ThreeDimensionalGeometry">
+              3D Geometry
+              </a>
+            </h3>
+          </li>
+          <li>
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/maths/VectorAlgebra">
+              Vector Algebra
+              </a>
+            </h3>
+          </li>
+          
+
+          
         </ul>
       </div>
     </div>
