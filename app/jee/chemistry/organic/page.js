@@ -1,11 +1,11 @@
 import React from "react";
-import { mathsques } from "../../question/question";
+//import { mathsques } from "../../question/question";
 
-const MathsPage = () => {
+const Organic = () => {
   return (
     <div className="pt-24">
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Maths Chapters</h1>
+        <h1 className="text-3xl font-bold mb-4">Organic Chemistry</h1>
         {/* <ul>
           {mathsques.map((item, index) => (
             <li key={index}>
@@ -17,50 +17,57 @@ const MathsPage = () => {
         <ul>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications" >
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/organic/unit1">
+              PURIFICATION AND CHARACTERISATION OF ORGANIC COMPOUNDS
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/complexNumbersAndQuadraticEquations">
-              Complex Numbers And Quadratic Equations
+              <a className="my-2" href="/jee/chemistry/organic/unit2">
+              SOME BASIC PRINCIPLES OF ORGANIC CHEMISTRY
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/organic/unit3">
+              HYDROCARBONS
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/organic/unit4">
+              ORGANIC COMPOUNDS CONTAINING HALOGENS
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/organic/unit5">
+              ORGANIC COMPOUNDS CONTAINING OXYGEN
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/organic/unit6">
+              ORGANIC COMPOUNDS CONTAINING NITROGEN
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/organic/unit7">
+              BIOMOLECULES
+              </a>
+            </h3>
+          </li>
+          <li>
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/chemistry/organic/unit8">
+              PRINCIPLES RELATED TO PRACTICAL CHEMISTRY
               </a>
             </h3>
           </li>
@@ -102,4 +109,4 @@ const MathsPage = () => {
   );
 };
 
-export default MathsPage;
+export default Organic;

@@ -1,11 +1,11 @@
 import React from "react";
-import { mathsques } from "../../question/question";
+//import { mathsques } from "../../question/question";
 
-const MathsPage = () => {
+const InOrganic = () => {
   return (
     <div className="pt-24">
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Maths Chapters</h1>
+        <h1 className="text-3xl font-bold mb-4">InOrganic Chemistry</h1>
         {/* <ul>
           {mathsques.map((item, index) => (
             <li key={index}>
@@ -17,50 +17,29 @@ const MathsPage = () => {
         <ul>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications" >
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/inorganic/unit1">
+              CLASSIFICATION OF ELEMENTS AND PERIODICITY IN PROPERTIES
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/complexNumbersAndQuadraticEquations">
-              Complex Numbers And Quadratic Equations
+              <a className="my-2" href="/jee/chemistry/inorganic/unit2">
+              P- BLOCK ELEMENTS
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/inorganic/unit3">
+              d - and f- BLOCK ELEMENTS
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
-              </a>
-            </h3>
-          </li>
-          <li>
-            <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
-              </a>
-            </h3>
-          </li>
-          <li>
-            <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
-              </a>
-            </h3>
-          </li>
-          <li>
-            <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/inorganic/unit4">
+              CO-ORDINATION COMPOUNDS
               </a>
             </h3>
           </li>
@@ -102,4 +81,4 @@ const MathsPage = () => {
   );
 };
 
-export default MathsPage;
+export default InOrganic;

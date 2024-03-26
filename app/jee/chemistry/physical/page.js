@@ -1,11 +1,11 @@
 import React from "react";
-import { mathsques } from "../../question/question";
+//import { mathsques } from "../../question/question";
 
-const MathsPage = () => {
+const Physical = () => {
   return (
     <div className="pt-24">
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Maths Chapters</h1>
+        <h1 className="text-3xl font-bold mb-4">Physical Chemistry</h1>
         {/* <ul>
           {mathsques.map((item, index) => (
             <li key={index}>
@@ -17,50 +17,57 @@ const MathsPage = () => {
         <ul>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications" >
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/physical/unit1">
+              SOME BASIC CONCEPTS IN CHEMISTRY
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/complexNumbersAndQuadraticEquations">
-              Complex Numbers And Quadratic Equations
+              <a className="my-2" href="/jee/chemistry/physical/unit2">
+              ATOMIC STRUCTURE
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/physical/unit3">
+              CHEMICAL BONDING AND MOLECULAR STRUCTURE
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/physical/unit4">
+              CHEMICAL THERMODYNAMICS
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/physical/unit5">
+              SOLUTIONS
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/physical/unit6">
+              EQUILIBRIUM
               </a>
             </h3>
           </li>
           <li>
             <h3 className="text-red-500">
-              <a className="my-2" href="/jee/maths/binomialTheoremAndItsSimpleApplications">
-                Binomial Theorem And Its Simple Applications
+              <a className="my-2" href="/jee/chemistry/physical/unit7">
+              REDOX REACTIONS AND ELECTROCHEMISTRY
+              </a>
+            </h3>
+          </li>
+          <li>
+            <h3 className="text-red-500">
+              <a className="my-2" href="/jee/chemistry/physical/unit8">
+              CHEMICAL KINETICS
               </a>
             </h3>
           </li>
@@ -102,4 +109,4 @@ const MathsPage = () => {
   );
 };
 
-export default MathsPage;
+export default Physical;
