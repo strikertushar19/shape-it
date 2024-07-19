@@ -5,16 +5,29 @@ const page = () => {
   return (
     <>
       {" "}
-      <div className="flex flex-col border-[10px] border-neutral-900 items-center h-screen">
-      <h1 className="text-4xl p-20 border-10 border-neutral-900 sm:mt-[300px] md:mt-[250px] xl:mt-[100px] lg:mt-[100px]  text-center m-5 very-small-device">JEE</h1>
-        <div className="flex flex-col items-center">
-          <a className="my-2" href="/jee/chemistry">
+      <div className="h-screen w-screen flex flex-row items-center">
+        <div
+          className="w-1/2 h-screen bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url('jee.jpg')` }}
+        ></div>
+        <div className="w-1/2 h-screen flex flex-col justify-center  p-20">
+          <h1 className="text-4xl text-neutral-900  ">JEE</h1>
+          <h2 className="text-2xl text-neutral-900  ">
+            Choose a subject click the links
+          </h2>
+          <a
+            className="my-2 text-lg  text-blue-700 underline"
+            href="/jee/chemistry"
+          >
             chemistry
           </a>
-          <a className="my-2" href="/jee/maths">
+          <a className="my-2 text-lg   text-blue-700 underline" href="/jee/maths">
             maths
           </a>
-          <a className="my-2" href="/jee/physics">
+          <a
+            className="my-2  text-lg text-blue-700 underline"
+            href="/jee/physics"
+          >
             physics
           </a>
         </div>

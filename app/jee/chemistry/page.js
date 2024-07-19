@@ -4,16 +4,29 @@ import React from "react";
 const ChemistryPage = () => {
   return (
     <>
-      <div className="flex flex-col border-[10px] border-neutral-900 items-center h-screen">
-        <h1 className="text-4xl p-20 border-10 border-neutral-900 sm:mt-[300px] md:mt-[250px] xl:mt-[100px] lg:mt-[100px]  text-center m-5 very-small-device">Chemistry</h1>
-        <div className="flex flex-col items-center">
-          <Link href="/jee/chemistry/physical">
+      <div className="h-screen flex flex-row items-center">
+        <div
+          className="w-1/2 h-screen bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url('/chemistry.jpg')` }}
+        ></div>
+        <div className="w-1/2 h-screen flex flex-col justify-center p-20">
+          <h1 className="text-4xl text-neutral-900">Chemistry</h1>
+          <Link
+            href="/jee/chemistry/physical"
+            className="my-2 text-lg text-blue-700 underline"
+          >
             Physical Chemistry
           </Link>
-          <Link href="/jee/chemistry/inorganic">
+          <Link
+            href="/jee/chemistry/inorganic"
+            className="my-2 text-lg text-blue-700 underline"
+          >
             Inorganic Chemistry
           </Link>
-          <Link href="/jee/chemistry/organic">
+          <Link
+            href="/jee/chemistry/organic"
+            className="my-2 text-lg text-blue-700 underline"
+          >
             Organic Chemistry
           </Link>
         </div>
