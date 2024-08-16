@@ -1,4 +1,5 @@
 import React from "react";
+
 //import { mathsques } from "../../question/question";
 
 const Physical = () => {

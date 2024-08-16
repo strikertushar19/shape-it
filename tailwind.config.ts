@@ -10,11 +10,15 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      listStyleType: {
+        'lower-alpha': 'lower-alpha', // a, b, c, ...
+        'upper-alpha': 'upper-alpha', // A, B, C, ...
       },
     },
   },
   plugins: [],
 };
+
 export default config;
